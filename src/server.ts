@@ -1,7 +1,7 @@
 import { createServer } from 'http';
 import app from './app'; // Your Express app with all routes/middleware
 import { Server } from 'socket.io';
-import { registerSocketEvents } from '../src/socket/socket'; // Adjust the import path as necessary
+import { registerSocketEvents } from './socket/socket'; // Adjust the import path as necessary
 
 const port = parseInt(process.env.PORT || '3000', 10);
 
