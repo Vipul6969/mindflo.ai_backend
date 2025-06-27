@@ -1,0 +1,19 @@
+/my-whiteboard-backend
+  |-- drizzle/
+  |-- src/
+  |     |-- api/         # REST API routes
+  |     |-- socket/      # Socket.IO logic
+  |     |-- db.ts        # Drizzle/Postgres setup
+  |     |-- server.ts    # Main server file (Express + Socket.IO)
+  |-- package.json
+  |-- .env
+
+
+
+/my-whiteboard-frontend
+  |-- pages/
+  |-- components/
+  |-- public/
+  |-- utils/
+  |-- package.json
+  |-- .env.local
